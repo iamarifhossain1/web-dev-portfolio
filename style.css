@@ -165,15 +165,10 @@ main {
     text-align: center;
 }
 
-.about-container {
-
-   
-}
 
 .about-heading {
 
     font-size: 35px;
-
 }
 
 .about-description {
@@ -198,21 +193,9 @@ main {
 .about-details {
 
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
 }
 
-.skills-container {
-
-    
-}
-
-.skill-about {
-
-    margin: 0px auto;
-    text-align: center;
-    padding: 120px 100px;
-}
 
 .skill-title {
 
