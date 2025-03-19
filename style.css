@@ -359,6 +359,7 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     }
 
     input[type="submit"] {
-        margin-left: 150px;
+
+        margin-left: 130px;
     }
 }
