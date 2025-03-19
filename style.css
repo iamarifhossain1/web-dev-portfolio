@@ -338,6 +338,10 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     .resume-container {
         flex-direction: column;
     }
+
+    .resume {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -352,5 +356,9 @@ footer input[type="text"], footer input[type="email"], footer textarea {
 
     footer input[type="text"], footer input[type="email"], footer textarea {
         width: calc( (100% - 40px) );
+    }
+
+    input[type="submit"] {
+        margin-left: 150px;
     }
 }
