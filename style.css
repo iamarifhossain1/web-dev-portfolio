@@ -115,7 +115,7 @@ nav ul a:hover {
 
 .banner-img {
 
-    width: 580px;
+    width: 100%;
 }
 
 .banner-greetings {
@@ -146,7 +146,6 @@ nav ul a:hover {
 main {
 
     max-width: 1140px;
-    
     margin: 0px auto;
     border-radius: 10px;
     
@@ -316,7 +315,36 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     display: none;
 }
 
+
+
 @media screen and (max-width: 576px) {
+
+    nav, nav > ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner-sec {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .banner-container {
+        width: 100%;
+    }
+    .banner img {
+        width: 100%;
+    }
+
+    
+    .hire {
+        margin-left: -40px;
+    }
+    
+    .header-content {
+        background-image: none;
+    }
+
     .about-details {
         flex-direction: column;
         margin-top: -10px;
@@ -325,6 +353,10 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     .about-sec {
         margin-top: 20px;
         padding: 20px;
+    }
+    
+    .primary-btn {
+        margin-bottom: 10px;
     }
 }
 
